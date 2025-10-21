@@ -2,9 +2,6 @@ import speech_recognition as sr
 
 
 def record_to_file(filename: str, timeout: float = 5, phrase_time_limit: float = 10):
-    """Record from default microphone and save to WAV file.
-    Returns the path to the saved file.
-    """
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print('Adjusting for ambient noise...')
@@ -21,4 +18,5 @@ def record_to_file(filename: str, timeout: float = 5, phrase_time_limit: float =
 
 if __name__ == '__main__':
     record_to_file('output.wav')
+
 
