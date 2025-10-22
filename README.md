@@ -65,7 +65,7 @@
 
 
                #output
-              ![Scrrenshot](https://github.com/Madhuri-79/speechtest/blob/a633dcd1d965642ae6dfd824f5ad811cc8d55cb0/speech.png)
+![Preview](https://github.com/Madhuri-79/speechtest/blob/a633dcd1d965642ae6dfd824f5ad811cc8d55cb0/speech.png)
   
 
      
