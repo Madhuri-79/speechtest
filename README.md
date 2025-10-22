@@ -5,13 +5,13 @@
     It uses SpeechRecognition,PyAudio and tkinter to provide both a command line and graphical
     interface.
 
-    Use this project to:
+    # Use this project to:
       -Create:voice controlled tools
       -Generate:automatic transcriptions
       -Build:AI voice assistants
       -Enable:Hands free note taking
 
-  #features:
+  # features:
      -Live voice Recognition,
      -Audio File Support,
      -Auto Save,
@@ -19,21 +19,21 @@
      -Modular code,
      -Test Suite,
 
-  #Technologies Used:
+  # Technologies Used:
      -Python 3.8+,
      -SpeechRecognition,
      -PyAudio,
      -ffmpeg,
      -Tkinter,
      -pytest,
-  ##instal dependencies:
+  # instal dependencies:
      -pip install -r requirements.txt
-  ##instal audio libraries:
+  # instal audio libraries:
      -pip install pipwin
      -pipwin install pyaudio
 
      
-#Project Structure:
+# Project Structure:
     requirements.txt
     speech_to_text.py
     gui_transcriber.py
@@ -42,7 +42,7 @@
     tests
       --test_transcription.py
 
-  #usage
+  # usage
      1.Live speech transcription-
         python speech_to_text.py
       speak into mic and see words appear in real time
@@ -53,7 +53,7 @@
         click start listening ->speak ->click Stop & Save to save transcript.
 
 
-    #Working process
+    # Working process
          speech Input
              |
          Audio Preprocessing
@@ -64,7 +64,7 @@
 
 
 
-               output
+   # output
 ![Preview](https://github.com/Madhuri-79/speechtest/blob/a633dcd1d965642ae6dfd824f5ad811cc8d55cb0/speech.png)
   
 
