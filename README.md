@@ -12,20 +12,20 @@
       -Enable:Hands free note taking
 
   #features:
-     -Live voice Recognition
-     -Audio File Support
-     -Auto Save
-     -User friendly GUI
-     -Modular code
-     -Test Suite
+     -Live voice Recognition,
+     -Audio File Support,
+     -Auto Save,
+     -User friendly GUI,
+     -Modular code,
+     -Test Suite,
 
   #Technologies Used:
-     -Python 3.8+
-     -SpeechRecognition
-     -PyAudio
-     -ffmpeg
-     -Tkinter
-     -pytest
+     -Python 3.8+,
+     -SpeechRecognition,
+     -PyAudio,
+     -ffmpeg,
+     -Tkinter,
+     -pytest,
   ##instal dependencies:
      -pip install -r requirements.txt
   ##instal audio libraries:
@@ -33,7 +33,7 @@
      -pipwin install pyaudio
 
      
---Project Structure:
+#Project Structure:
     requirements.txt
     speech_to_text.py
     gui_transcriber.py
@@ -61,6 +61,11 @@
          SpeechRecognition
              |
          Text Output
+
+
+
+               #output
+               https://github.com/Madhuri-79/speechtest/blob/a633dcd1d965642ae6dfd824f5ad811cc8d55cb0/speech.png
   
 
      
